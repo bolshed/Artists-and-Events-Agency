@@ -1,0 +1,70 @@
+<! DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Booking Agency </title>  
+  <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+  <link rel="stylesheet" href="my.css">
+</head>
+    
+<body> 
+  <nav>
+    <ul>
+      <li> <a href="index.html"> News </a></li>
+      <li> <a href="artists.html"> Artists</a></li>
+      <li> <a href="calendar.html"> Events </a></li>
+      <li> <a href="about.html"> About </a></li>
+      <li> <a class="active" href="#"> Contact </a></li>
+      <li> <img src="ew.jpg"> </li>
+     </ul>
+  </nav>
+   
+    <h1> Request an artist or just drop us a line </h1>
+
+    
+    <form>
+      <label> Your Name  </label>
+        <input type="text" name="name" placeholder="Your name" required>
+    </form>
+    <form>
+      <label> Your Email  </label>
+        <input type="email" name="email" placeholder="Your email" required>
+    </form>   
+    <form>    
+      <label> Your Phone </label>
+        <input type="tel" name="tel" placeholder="Your phone number">
+    </form><br>
+        <p id="ppp"> Preferred way of communication </p>
+    <form>
+      <label for="email">
+            <input id="email" type="radio" name="communicate"> Email
+        </label>
+      <label for="tel">
+            <input id="tel" type="radio" name="communicate"> Telephone
+      </label>
+    </form><br><br>
+    
+    
+  <form action="action.php">
+    <label for="artist"> Artist </label>
+    <select name="artist" required>
+      <option > Select artist </option>
+      <option value="Bosha"> Bosha </option>
+      <option value="Laylla"> Laylla </option>
+      <option value="Garo"> Garo </option>    
+      <option value="Artist4"> Artist4 </option>    
+      <option value="Artist5"> Artist5 </option>    
+    </select><br><br>
+    <label for="date"> Date </label>
+      <input type="date" id="date" name="date">
+    </form>  
+    <label> Your message </label>
+    <textarea name="message" placeholder="Your message"></textarea><br><br>
+    <input type="submit" value="Send"> <br><br>
+    <br><br>
+    <hr>
+    <br>
+    </body>    
+
+
+</html>

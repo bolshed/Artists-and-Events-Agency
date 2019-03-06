@@ -1,0 +1,287 @@
+* {
+   font-family: K2D;
+   } 
+ 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    border: 2px;
+    border-style: solid;
+    margin: 15px 55px;
+    border-radius: 15px;
+    }
+
+hr {
+    margin: 10px 55px 0 55px;
+    border: 0.5px solid;
+
+    }
+
+body {
+    margin: 0;
+    background-color: rgb(187 187 187);
+      }
+
+a  {
+    text-decoration:none;
+    } 
+
+    /*Navigation Pane*/
+
+nav ul {
+    
+/*          list-style: none;*/
+    margin: 0px;
+    padding: 5px;
+    background-color: black
+      }
+
+nav li {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 10px; 0;
+          
+      }
+nav a {
+    text-decoration: none;
+    padding: 15px; 53px;
+    color: white;
+      }
+
+nav a:hover, a.active {
+    color: black;
+    background-color: rgb(187 187 187);
+      }
+
+nav img {
+    position: relative;
+    left: 500px;
+    bottom: 1px;
+    margin: -20px;
+    width: 61px;
+    height: auto;
+    
+    }
+
+    /* News + Events Sections */
+
+section article {
+    margin: 10px 55px;
+    border-radius: 15px;
+    padding: 0 10px;
+    color: black;
+    }
+
+section article:hover {
+    background-color: cornflowerblue;
+    color: white;
+    }
+
+section h3 {
+    display: inline-block;
+    margin: 0;
+    }
+.events hr {
+    margin: 0 55px;
+}
+
+section h4 {
+    margin: auto;
+    padding-bottom: 3px;
+    font-weight: normal;
+    }
+
+article p {
+    font-size: 11px;
+    }
+
+a img {
+    width: 2.5%;
+/*    margin-left: 500px;*/
+/*    border-style: solid;*/
+    }
+
+.newspar {
+    margin: 5px 55px;
+    text-align: justify;
+    font-size: 16px;
+    }
+
+.newsimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
+}
+
+    /*Artist Page*/
+
+figure {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+
+    }
+
+figure img {
+    position: absolute;
+    width: 100%;
+    }
+
+figcaption {
+    position: absolute;
+    bottom: -45px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: rgba( 255, 255, 255, 0.672 );
+    padding: 10px;
+    transition: bottom 1s;
+    }
+
+figure:hover figcaption {
+    bottom: 20px;
+    }
+
+section figure:active {
+    transform: translateY(4px);
+
+    }
+
+.artistpix {
+    margin-left: 55px;
+    }
+    
+    /* Artists subpages */
+
+.artist p {
+    margin: 20px 55px;
+    text-align: justify;
+    }
+
+.artist img {
+    margin: 10px 20px 0 55px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px;
+}
+
+.artist .links {
+    margin-left: 55px;
+    }
+
+.artist img:hover {
+    background-color: cornflowerblue;
+    }
+
+.artist a img {
+    margin: 18px 0 0 0;
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 50%;
+    box-shadow: 0 6px #999;
+
+    }
+
+.artist img:active {
+    transform: translateY(4px);
+    }
+
+.artist h2 {
+    display: inline-block;
+    text-shadow: 5px 5px 10px;
+    }
+
+.artist button {
+    margin: 15px 0 0 0;
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid;
+    background-color: rgb(187 187 187);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px;
+    }
+
+.artist button:hover {
+    background-color: cornflowerblue;
+    }
+
+.artist button:active {
+        transform: translateY(4px);
+    }
+
+    /*Events Page*/
+
+.events h2 {
+    display: inline; 
+    margin: 0 55px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    padding: 0 20px;
+    }
+
+    /*Contact Page*/
+
+label {
+    position: relative;
+    left: 30px;
+    display: inline-block;
+    width: 200px;
+    }
+
+input:focus, textarea:focus {
+    outline: none;
+    }
+
+input[type=text],
+input[type=email],
+input[type=tel] 
+    {
+    width: 200px;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    }
+
+textarea {
+    width: 200px;
+    height: 15px 0px;
+    padding: 10px;
+    vertical-align: top;
+    margin-bottom: 12px;
+    }
+
+input:hover, textarea:hover {
+    background-color: #eee;
+    }
+
+input:focus, textarea:focus {
+    background-color: #eee;
+    }
+
+#ppp {
+    padding-left: 30px;
+    }
+
+input[type=submit] {
+    margin-left: 35px;
+    padding: 10px 210px;
+    border-radius: 8px;
+    border: 2px solid;
+    background-color: rgb(187 187 187);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 6px #999;
+    }
+
+input[type=submit]:hover {
+    background-color: cornflowerblue;
+    }
